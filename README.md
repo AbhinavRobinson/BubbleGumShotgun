@@ -17,7 +17,7 @@ then if you want to add the changes you have done to the repo from offline (your
 its open up a bash file
 
 press "i"
-
+(you wont see the i being entered onto the screen)
 then 
 >>> git commit
 
