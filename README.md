@@ -12,6 +12,7 @@ clone this repo on your desktop by
 then if you want to add the changes you have done to the repo from offline (yourcomputer) to the website where we can access it
 
 >>> git add .
+//
 >>> git commit
 
 its open up a bash file
@@ -46,6 +47,5 @@ the latest changes will be donwloaded
 
 please do the git push after you do the changes
 else we wont be able to see them
-
 
 # please read the above thing, and dont bunk on the meetings
