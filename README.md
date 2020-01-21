@@ -6,28 +6,21 @@ SRISHTI: E18CSE181: sv3451@bennett.edu.in
 
 # DATA LEAK DETECTION
 
-To check if any data is leaked, or lost and to check the source of the leakage. We'' use data tunneling on a regular basis.
+To check if any data is leaked, or lost and find the source of the leakage. We use data tunneling on a regular basis.
 # DATA TUNNELING
 
-to transfer data in a single space, to keep a cnstant check on the data being transferred. Can be repeated to chech the data loss after each step, which helps to check where we lost the data.
+To transfer data in a single space, to keep a constant check on the data being transferred. Can be repeated to check the data loss after each step, which helps to locate where we have lost the data.
 # DARK DATA
-Dark data is a type of unstructured, untagged and untapped data that is found in data repositories and has not been analyzed or processed. Basiaclly urequired data, that uses up space.
-
-
-
->>>//
-.
->>>//
+Dark data is a type of unstructured, untagged and untapped data that is found in data repositories and has not been analyzed or processed.
 
 # Data-Leakage-Detection
+Data leakage is an uncontrolled or unauthorized transmission of classified information to the outside. It poses a serious problem to companies. It is essential to discover data leakage as soon as possible, as it poses a serious threat to companies on the scale of going bankrupt. The purpose of this PROJECT is to design and implement a data leakage detection system based on special information retrieval models and methods, and also try removing the dark data. Data is to be stored in .pdf or as an image file.
 
-Data leakage is an uncontrolled or unauthorized transmission of classified information to the outside. It poses a serious problem to companies.It is essential to discover data leakage as soon as possible, as it poses a serious threat to companies on the scale of going bankrupt. The purpose of this PROJECT is to design and implement a data leakage detection system based on special information retrieval models and methods, and also try removing the dark data. Data is to be stored in .pdf or as an image file.
-
-Dependency Req as of now
-..Python/Java
+Dependency Req as of now 
+.. Python/Java
 .. Numpy
 .. DJango
-..if python (pdf dependency)
+.. if python (pdf dependency)
 .. Git
 .. Database 
 .. Web (we'll use a template)
@@ -37,14 +30,12 @@ Dependency Req as of now
 
 implementing data allocation strategies, that improve the porbability of finding the location of a packet of data, hence detecting where a certain data packet has been leaked. 
 
-
-
 # PROBLEM DEF
-IN COURSE OF BUSINESS, WE TRANSFER CERTAIN DATA THAT IS PRIVATE TO US, TO A THIRD PARTY SOURSE TO BUILD IT, for example, big league companies like apple give their phone design to foxconn to build the device. In the mean time, online renders are being leaked, and the device comes out aritficially months ahead. OUR GOAL IS TO DETECT LEAKS LIKE THESE. 
+IN COURSE OF BUSINESS, WE TRANSFER CERTAIN DATA THAT IS PRIVATE TO US, TO A THIRD PARTY SOURSE TO BUILD IT, for example, big league companies like Apple give their phone design to Foxconn to build the device. In the mean time, online renders are being leaked, and the device comes out aritficially months ahead. OUR GOAL IS TO DETECT LEAKS LIKE THESE. 
 
 # WHAT IT ACTUALLY LOOKS LIKE
 
-  from the ADMIN SIDE
+from the ADMIN SIDE
   
                     ADMIN --------> LOGIN -------> DATA
                     
