@@ -1,5 +1,7 @@
 # GIT
 
+dowload git for your machine first
+
 clone this repo on your desktop by 
 >>> git clone https://github.com/AbhinavRobinson/BubbleGumShotgun.git
 
